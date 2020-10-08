@@ -1,0 +1,20 @@
+1. Throughput      = Jumlah data yang dikirim (byte s) / waktu pengiriman (time span) × 8
+                   = 5568857 / 170.301 × 8
+                   = 261600.67
+              
+              
+2. Packet loss     = Jumlah paket yang dikirim - jumlah paket yang diterima / jumlah paket yang dikirim × 100%
+                   = 51462 - 51462 / 51462 × 100%
+                   = 0
+
+
+3. Delay           = time 2   - time 1
+                   = 7.35001  - 6.55206
+                   = 0.797949
+   Rata rata delay = 0.797949 / 5146
+                   = 1.55E-05
+
+4. Jiter           = delay 1 - delay 2
+                   = 0.95424
+   Rata rata jiter = 0.95424 / 5146
+                   = 1.85E-05
